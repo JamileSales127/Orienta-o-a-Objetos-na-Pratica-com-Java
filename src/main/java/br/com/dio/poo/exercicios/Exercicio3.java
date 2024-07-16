@@ -1,4 +1,4 @@
-package br.com.dio.poo.exercicio3;
+package br.com.dio.poo.exercicios;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class Exercicio3 {
 
     // Criar uma nova conta bancária com o saldo inicial
     double saldoInicial = scanner.nextDouble();
-    ContaBancaria conta = new ContaBancaria(saldoInicial);
+    ContaBancaria1 conta = new ContaBancaria1(saldoInicial);
 
     // Lê a Entrada com o valor do deposito e aciona o método "depositar"
     double valorDeposito = scanner.nextDouble();
